@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "hello_cargo","guessing_game",
+    "adder", "rectangles", "minigrep",
+    "smart_pointer", "concurrency",
+    "web_server"
+
+]
