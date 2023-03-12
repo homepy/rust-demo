@@ -2,8 +2,10 @@
 name = "guessing_game"
 version = "0.1.0"
 edition = "2021"
+description = "https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 
 [dependencies]
 rand = "0.8.3"

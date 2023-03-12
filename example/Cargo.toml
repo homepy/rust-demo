@@ -1,0 +1,10 @@
+[package]
+name = "example"
+version = "0.1.0"
+edition = "2021"
+
+# https://doc.rust-lang.org/book/ch05-00-structs.html
+# https://doc.rust-lang.org/book/ch06-00-enums.html
+# https://doc.rust-lang.org/book/ch09-00-error-handling.html
+
+[dependencies]

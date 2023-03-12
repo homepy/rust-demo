@@ -5,7 +5,7 @@ use std::io;
 fn main() {
     println!("Guess the number!");
 
-    let secret_number = rand::thread_rng().gen_range(1..=100); // 默认immutable variable
+    let secret_number = rand::thread_rng().gen_range(1..=100); // 默认immutable variable，即Java final
 
     println!("The secret number is: {secret_number}");
 
@@ -30,7 +30,7 @@ fn main() {
 
         match guess.cmp(&secret_number) {
             // match 类似于Java switch
-            Ordering::Less => println!("Too small!"),
+            Ordering::Less => println!("Too small!"), // arm
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
                 println!("You win!");
